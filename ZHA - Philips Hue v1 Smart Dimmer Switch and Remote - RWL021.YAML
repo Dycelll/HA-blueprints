@@ -248,7 +248,6 @@ action:
         sequence: !input "Power_HoldPress"
       - conditions: '{{ command_type == "on_long_release" }}'
         sequence: !input "Power_HoldRelease"
-
       - conditions: '{{ command_type == "up_press" }}'
         sequence: !input "Up_Press"
       - conditions: '{{ command_type == "up_double_press" }}'
@@ -265,7 +264,6 @@ action:
         sequence: !input "Up_HoldPress"
       - conditions: '{{ command_type == "up_long_release" }}'
         sequence: !input "Up_HoldRelease"
-
       - conditions: '{{ command_type == "down_press" }}'
         sequence: !input "Down_Press"
       - conditions: '{{ command_type == "down_double_press" }}'
@@ -282,7 +280,6 @@ action:
         sequence: !input "Down_HoldPress"
       - conditions: '{{ command_type == "down_long_release" }}'
         sequence: !input "Down_HoldRelease"
-
       - conditions: '{{ command_type == "off_press" }}'
         sequence: !input "Off_Press"
       - conditions: '{{ command_type == "off_double_press" }}'
